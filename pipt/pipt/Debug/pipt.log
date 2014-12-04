@@ -1,10 +1,52 @@
-﻿生成启动时间为 2014/12/3 22:32:40。
-     1>项目“F:\My Project\PIP\pipt\pipt\pipt.vcxproj”在节点 2 上(clean 个目标)。
-     1>_PrepareForClean:
-         正在删除文件“Debug\pipt.lastbuildstate”。
-     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : 对路径“F:\MY PROJECT\PIP\PIPT\DEBUG\PIPT.EXE”的访问被拒绝。
-     1>已完成生成项目“F:\My Project\PIP\pipt\pipt\pipt.vcxproj”(clean 个目标)的操作。
+﻿生成启动时间为 2014/12/4 1:37:35。
+     1>项目“F:\My Project\PIP\pipt\pipt\pipt.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\pipt.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\coder\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>f:\my project\pip\pipt\pipt\m_model.h(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\coder\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\my project\pip\pipt\pipt\m_model.h(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\coder\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         F:\coder\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\My Project\PIP\pipt\Debug\pipt.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\pipt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\My Project\PIP\pipt\Debug\pipt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\My Project\PIP\pipt\Debug\pipt.lib" /MACHINE:X86 Debug\ARB_multitexture_extension.obj
+         Debug\ARB_texture_cube_map_extension.obj
+         Debug\ARB_texture_env_combine_extension.obj
+         Debug\ARB_texture_env_dot3_extension.obj
+         Debug\COLOR.obj
+         Debug\IMAGE_CalculateStride.obj
+         Debug\IMAGE_ExpandPalette.obj
+         Debug\IMAGE_Load.obj
+         Debug\IMAGE_Load24BitBMP.obj
+         Debug\IMAGE_Load8BitBMP.obj
+         Debug\IMAGE_LoadAlpha.obj
+         Debug\IMAGE_LoadBMP.obj
+         Debug\IMAGE_LoadCompressedTrueColorTGA.obj
+         Debug\IMAGE_LoadTGA.obj
+         Debug\IMAGE_LoadUncompressed8BitTGA.obj
+         Debug\IMAGE_LoadUncompressedTrueColorTGA.obj
+         Debug\MATRIX4X4.obj
+         Debug\PLANE.obj
+         Debug\VECTOR2D.obj
+         Debug\VECTOR3D.obj
+         Debug\VECTOR4D.obj
+         Debug\CEIL.obj
+         Debug\FLOOR.obj
+         Debug\m_room.obj
+         "Debug\Normalisation Cube Map.obj"
+         Debug\WALL.obj
+         Debug\Main.obj
+         Debug\m_picture.obj
+         Debug\OBJParser.obj
+         pipt.vcxproj -> F:\My Project\PIP\pipt\Debug\pipt.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"F:\My Project\PIP\pipt\Debug\pipt.exe.manifest" /manifest Debug\pipt.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\pipt.unsuccessfulbuild”。
+         正在对“Debug\pipt.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\My Project\PIP\pipt\pipt\pipt.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.25
+已用时间 00:00:01.87

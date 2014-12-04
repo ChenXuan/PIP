@@ -26,7 +26,7 @@ public:
 	CEIL_VERTEX * vertices;
 };
 
-const int ceilPrecision=500;
+const int ceilPrecision=100;
 const float ceilHeight=15.0f;
 const float ceilWidth=15.0f;
 

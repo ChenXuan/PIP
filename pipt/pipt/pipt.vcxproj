@@ -97,6 +97,7 @@
     <ClCompile Include="cx\Asist\VECTOR3D.cpp" />
     <ClCompile Include="cx\Asist\VECTOR4D.cpp" />
     <ClCompile Include="cx\CEIL.cpp" />
+    <ClCompile Include="cx\FLOOR.cpp" />
     <ClCompile Include="cx\m_room.cpp" />
     <ClCompile Include="cx\Normalisation Cube Map.cpp" />
     <ClCompile Include="cx\WALL.cpp" />
@@ -118,6 +119,7 @@
     <ClInclude Include="cx\Asist\VECTOR3D.h" />
     <ClInclude Include="cx\Asist\VECTOR4D.h" />
     <ClInclude Include="cx\CEIL.h" />
+    <ClInclude Include="cx\FLOOR.h" />
     <ClInclude Include="cx\m_room.h" />
     <ClInclude Include="cx\Normalisation Cube Map.h" />
     <ClInclude Include="cx\WALL.h" />

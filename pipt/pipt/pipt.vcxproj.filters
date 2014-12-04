@@ -105,6 +105,9 @@
     <ClCompile Include="cx\Asist\VECTOR4D.cpp">
       <Filter>cx\Asist</Filter>
     </ClCompile>
+    <ClCompile Include="cx\FLOOR.cpp">
+      <Filter>cx</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="m_shader.h">
@@ -169,6 +172,9 @@
     </ClInclude>
     <ClInclude Include="cx\Asist\VECTOR4D.h">
       <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\FLOOR.h">
+      <Filter>cx</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
