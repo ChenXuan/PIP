@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include <GL\gl.h>
-#include "Maths/Maths.h"
+#include "Asist/Maths.h"
 #include "WALL.h"
 
 WALL::WALL()

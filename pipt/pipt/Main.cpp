@@ -44,11 +44,10 @@ void myDisplay(void)
 	room->paint(eye,light);
 	pic->paint();
 	
-	//model->paint();
+	model->paint();
 	//shader->paint();
 	//frame->paint();
 	
-
 	glutSwapBuffers();
 }
 

@@ -5,12 +5,12 @@
 #include <GL/glut.h>
 #include <GL/glext.h>
 #include "m_room.h"
-#include "Extensions/ARB_multitexture_extension.h"
-#include "Extensions/ARB_texture_cube_map_extension.h"
-#include "Extensions/ARB_texture_env_combine_extension.h"
-#include "Extensions/ARB_texture_env_dot3_extension.h"
-#include "Maths/Maths.h"
-#include "Image/IMAGE.h"
+#include "Asist/ARB_multitexture_extension.h"
+#include "Asist/ARB_texture_cube_map_extension.h"
+#include "Asist/ARB_texture_env_combine_extension.h"
+#include "Asist/ARB_texture_env_dot3_extension.h"
+#include "Asist/Maths.h"
+#include "Asist/IMAGE.h"
 #include "Normalisation Cube Map.h"
 #include "WALL.h"
 #include "CEIL.h"
@@ -42,6 +42,9 @@ void MRoom::paint(GLfloat* eye,GLfloat* light){
 	initw();
 	drawwall(eye,light);
 	drawceil(light);
+	glDeleteTextures(1,&normalMap);
+	glDeleteTextures(1,&decalTexture);
+	glDeleteTextures(1,&normalisationCubeMap);
 }
 
 IMAGE normalMapImage;
@@ -173,7 +176,7 @@ void MRoom::initw(){
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-	//isInited=true;
+	isInited=true;
 }
 
 void MRoom::drawwall(GLfloat* eye,GLfloat* light){

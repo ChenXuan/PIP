@@ -16,14 +16,8 @@
     <Filter Include="cx">
       <UniqueIdentifier>{7772a1d4-b1c4-4916-87b0-6daeadd556d3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="cx\Extension">
-      <UniqueIdentifier>{d9b67212-a624-4ad7-bb40-44db549bb2f9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="cx\Maths">
-      <UniqueIdentifier>{40c32fdf-5316-48e7-ab34-bab67090efa1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="cx\Image">
-      <UniqueIdentifier>{c3b3f02a-5622-49e0-88e3-30e5811dfb12}</UniqueIdentifier>
+    <Filter Include="cx\Asist">
+      <UniqueIdentifier>{93d4fcc0-862a-4bb4-a100-fc72034c4437}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,71 +27,8 @@
     <ClCompile Include="OBJParser.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cx\Extensions\ARB_multitexture_extension.cpp">
-      <Filter>cx\Extension</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Extensions\ARB_texture_cube_map_extension.cpp">
-      <Filter>cx\Extension</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Extensions\ARB_texture_env_combine_extension.cpp">
-      <Filter>cx\Extension</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Extensions\ARB_texture_env_dot3_extension.cpp">
-      <Filter>cx\Extension</Filter>
-    </ClCompile>
     <ClCompile Include="cx\m_room.cpp">
       <Filter>cx</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Maths\COLOR.cpp">
-      <Filter>cx\Maths</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Maths\MATRIX4X4.cpp">
-      <Filter>cx\Maths</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Maths\PLANE.cpp">
-      <Filter>cx\Maths</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Maths\VECTOR2D.cpp">
-      <Filter>cx\Maths</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Maths\VECTOR3D.cpp">
-      <Filter>cx\Maths</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Maths\VECTOR4D.cpp">
-      <Filter>cx\Maths</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_CalculateStride.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_ExpandPalette.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_Load.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_Load8BitBMP.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_Load24BitBMP.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_LoadAlpha.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_LoadBMP.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_LoadCompressedTrueColorTGA.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_LoadTGA.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_LoadUncompressed8BitTGA.cpp">
-      <Filter>cx\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="cx\Image\IMAGE_LoadUncompressedTrueColorTGA.cpp">
-      <Filter>cx\Image</Filter>
     </ClCompile>
     <ClCompile Include="cx\Normalisation Cube Map.cpp">
       <Filter>cx</Filter>
@@ -110,6 +41,69 @@
     </ClCompile>
     <ClCompile Include="cx\CEIL.cpp">
       <Filter>cx</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\ARB_multitexture_extension.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\ARB_texture_cube_map_extension.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\ARB_texture_env_combine_extension.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\ARB_texture_env_dot3_extension.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\COLOR.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_CalculateStride.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_ExpandPalette.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_Load.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_Load8BitBMP.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_Load24BitBMP.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_LoadAlpha.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_LoadBMP.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_LoadCompressedTrueColorTGA.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_LoadTGA.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_LoadUncompressed8BitTGA.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\IMAGE_LoadUncompressedTrueColorTGA.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\MATRIX4X4.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\PLANE.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\VECTOR2D.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\VECTOR3D.cpp">
+      <Filter>cx\Asist</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Asist\VECTOR4D.cpp">
+      <Filter>cx\Asist</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -128,44 +122,8 @@
     <ClInclude Include="OBJParser.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="cx\Extensions\ARB_multitexture_extension.h">
-      <Filter>cx\Extension</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Extensions\ARB_texture_cube_map_extension.h">
-      <Filter>cx\Extension</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Extensions\ARB_texture_env_combine_extension.h">
-      <Filter>cx\Extension</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Extensions\ARB_texture_env_dot3_extension.h">
-      <Filter>cx\Extension</Filter>
-    </ClInclude>
     <ClInclude Include="cx\m_room.h">
       <Filter>cx</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Maths\COLOR.h">
-      <Filter>cx\Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Maths\Maths.h">
-      <Filter>cx\Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Maths\MATRIX4X4.h">
-      <Filter>cx\Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Maths\PLANE.h">
-      <Filter>cx\Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Maths\VECTOR2D.h">
-      <Filter>cx\Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Maths\VECTOR3D.h">
-      <Filter>cx\Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Maths\VECTOR4D.h">
-      <Filter>cx\Maths</Filter>
-    </ClInclude>
-    <ClInclude Include="cx\Image\IMAGE.h">
-      <Filter>cx\Image</Filter>
     </ClInclude>
     <ClInclude Include="cx\Normalisation Cube Map.h">
       <Filter>cx</Filter>
@@ -175,6 +133,42 @@
     </ClInclude>
     <ClInclude Include="cx\CEIL.h">
       <Filter>cx</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\ARB_multitexture_extension.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\ARB_texture_cube_map_extension.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\ARB_texture_env_combine_extension.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\ARB_texture_env_dot3_extension.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\COLOR.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\IMAGE.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\Maths.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\MATRIX4X4.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\PLANE.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\VECTOR2D.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\VECTOR3D.h">
+      <Filter>cx\Asist</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Asist\VECTOR4D.h">
+      <Filter>cx\Asist</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

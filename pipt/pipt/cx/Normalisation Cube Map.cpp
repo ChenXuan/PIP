@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <GL/gl.h>
 #include <GL/glext.h>
-#include "Maths/Maths.h"
+#include "Asist/Maths.h"
 #include "Normalisation Cube Map.h"
 
 bool GenerateNormalisationCubeMap()
