@@ -75,15 +75,57 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="m_room.cpp" />
+    <ClCompile Include="cx\CEIL.cpp" />
+    <ClCompile Include="cx\Extensions\ARB_multitexture_extension.cpp" />
+    <ClCompile Include="cx\Extensions\ARB_texture_cube_map_extension.cpp" />
+    <ClCompile Include="cx\Extensions\ARB_texture_env_combine_extension.cpp" />
+    <ClCompile Include="cx\Extensions\ARB_texture_env_dot3_extension.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_CalculateStride.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_ExpandPalette.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_Load.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_Load24BitBMP.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_Load8BitBMP.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_LoadAlpha.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_LoadBMP.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_LoadCompressedTrueColorTGA.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_LoadTGA.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_LoadUncompressed8BitTGA.cpp" />
+    <ClCompile Include="cx\Image\IMAGE_LoadUncompressedTrueColorTGA.cpp" />
+    <ClCompile Include="cx\Maths\COLOR.cpp" />
+    <ClCompile Include="cx\Maths\MATRIX4X4.cpp" />
+    <ClCompile Include="cx\Maths\PLANE.cpp" />
+    <ClCompile Include="cx\Maths\VECTOR2D.cpp" />
+    <ClCompile Include="cx\Maths\VECTOR3D.cpp" />
+    <ClCompile Include="cx\Maths\VECTOR4D.cpp" />
+    <ClCompile Include="cx\m_room.cpp" />
+    <ClCompile Include="cx\Normalisation Cube Map.cpp" />
+    <ClCompile Include="cx\WALL.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="m_picture.cpp" />
+    <ClCompile Include="OBJParser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cx\CEIL.h" />
+    <ClInclude Include="cx\Extensions\ARB_multitexture_extension.h" />
+    <ClInclude Include="cx\Extensions\ARB_texture_cube_map_extension.h" />
+    <ClInclude Include="cx\Extensions\ARB_texture_env_combine_extension.h" />
+    <ClInclude Include="cx\Extensions\ARB_texture_env_dot3_extension.h" />
+    <ClInclude Include="cx\Image\IMAGE.h" />
+    <ClInclude Include="cx\Maths\COLOR.h" />
+    <ClInclude Include="cx\Maths\Maths.h" />
+    <ClInclude Include="cx\Maths\MATRIX4X4.h" />
+    <ClInclude Include="cx\Maths\PLANE.h" />
+    <ClInclude Include="cx\Maths\VECTOR2D.h" />
+    <ClInclude Include="cx\Maths\VECTOR3D.h" />
+    <ClInclude Include="cx\Maths\VECTOR4D.h" />
+    <ClInclude Include="cx\m_room.h" />
+    <ClInclude Include="cx\Normalisation Cube Map.h" />
+    <ClInclude Include="cx\WALL.h" />
     <ClInclude Include="m_frame.h" />
     <ClInclude Include="m_model.h" />
     <ClInclude Include="m_shader.h" />
     <ClInclude Include="m_picture.h" />
-    <ClInclude Include="m_room.h" />
+    <ClInclude Include="OBJParser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

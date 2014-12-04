@@ -1,10 +1,13 @@
-#include <gl/glut.h>
+
 #include <stdlib.h>
-#include "m_room.h"
+
 #include "m_picture.h"
 #include "m_model.h"
+#include <gl/glut.h>
+#include "cx/m_room.h"
 #include "m_shader.h"
 #include "m_frame.h"
+
 
 #define WIDTH 1024
 #define HEIGHT 768
@@ -12,12 +15,10 @@
 #define Y 1
 #define Z 2
 #define NEAR 1
-#define FAR 100
+#define FAR 10000000
 
-
-static GLfloat angle = 0.0f;
-
-static GLdouble eye[]={5.0, 5.0, -10.0};
+static GLfloat eye[]={20.0, 10.0, -10.0};//{15.0, 10.0, -15.0};
+static GLfloat light[]={10,10,10};
 
 MRoom* room;
 MPicture* pic;
@@ -31,7 +32,7 @@ void myDisplay(void)
 	
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glEnable(GL_DEPTH_TEST);
-
+	
 	// 创建透视效果视图
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
@@ -39,14 +40,15 @@ void myDisplay(void)
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	gluLookAt(eye[X],eye[Y],eye[Z], 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
-
+	
+	room->paint(eye,light);
+	pic->paint();
+	
+	//model->paint();
+	//shader->paint();
+	//frame->paint();
 	
 
-	pic->paint();
-	room->paint();
-	model->paint();
-	shader->paint();
-	frame->paint();
 	glutSwapBuffers();
 }
 

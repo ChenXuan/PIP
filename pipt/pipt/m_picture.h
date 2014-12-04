@@ -1,21 +1,15 @@
-static float P_WIDTH=3.0f;
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "glew.h"
+static float P_WIDTH = 3.0f;
+
 class MPicture{
 
 public:
-	
-	void paint()
-	{
-		glMatrixMode(GL_MODELVIEW);
-		glPushMatrix();
-		glTranslatef(2.0f, 2.0f, -0.5f);
-
-		glBegin(GL_POLYGON);
-		glColor3f(0,0,0);
-		glVertex3f(P_WIDTH,P_WIDTH,0);
-		glVertex3f(0,P_WIDTH,0);
-		glVertex3f(0,0,0);
-		glVertex3f(P_WIDTH,0,0);
-		glEnd();
-		glPopMatrix();
-	};
+	void paint();
+	friend GLubyte* Gaussian_Blur(GLubyte* pixels, int height, int width);
+	friend GLuint load_texture(const char* file_name, bool useGaussianBlur);
+	friend int readShaderSource(char *fileName, GLchar **vertexShader, GLchar **fragmentShader);
+	friend int installShaders(const GLchar *Vertex, const GLchar *Fragment);
 };

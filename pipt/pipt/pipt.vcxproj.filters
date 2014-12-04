@@ -13,13 +13,103 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="cx">
+      <UniqueIdentifier>{7772a1d4-b1c4-4916-87b0-6daeadd556d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\Extension">
+      <UniqueIdentifier>{d9b67212-a624-4ad7-bb40-44db549bb2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\Maths">
+      <UniqueIdentifier>{40c32fdf-5316-48e7-ab34-bab67090efa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cx\Image">
+      <UniqueIdentifier>{c3b3f02a-5622-49e0-88e3-30e5811dfb12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="m_room.cpp">
+    <ClCompile Include="OBJParser.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Extensions\ARB_multitexture_extension.cpp">
+      <Filter>cx\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Extensions\ARB_texture_cube_map_extension.cpp">
+      <Filter>cx\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Extensions\ARB_texture_env_combine_extension.cpp">
+      <Filter>cx\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Extensions\ARB_texture_env_dot3_extension.cpp">
+      <Filter>cx\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\m_room.cpp">
+      <Filter>cx</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Maths\COLOR.cpp">
+      <Filter>cx\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Maths\MATRIX4X4.cpp">
+      <Filter>cx\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Maths\PLANE.cpp">
+      <Filter>cx\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Maths\VECTOR2D.cpp">
+      <Filter>cx\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Maths\VECTOR3D.cpp">
+      <Filter>cx\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Maths\VECTOR4D.cpp">
+      <Filter>cx\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_CalculateStride.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_ExpandPalette.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_Load.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_Load8BitBMP.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_Load24BitBMP.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_LoadAlpha.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_LoadBMP.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_LoadCompressedTrueColorTGA.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_LoadTGA.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_LoadUncompressed8BitTGA.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Image\IMAGE_LoadUncompressedTrueColorTGA.cpp">
+      <Filter>cx\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\Normalisation Cube Map.cpp">
+      <Filter>cx</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\WALL.cpp">
+      <Filter>cx</Filter>
+    </ClCompile>
+    <ClCompile Include="m_picture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cx\CEIL.cpp">
+      <Filter>cx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -32,11 +122,59 @@
     <ClInclude Include="m_picture.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="m_room.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="m_frame.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Extensions\ARB_multitexture_extension.h">
+      <Filter>cx\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Extensions\ARB_texture_cube_map_extension.h">
+      <Filter>cx\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Extensions\ARB_texture_env_combine_extension.h">
+      <Filter>cx\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Extensions\ARB_texture_env_dot3_extension.h">
+      <Filter>cx\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\m_room.h">
+      <Filter>cx</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Maths\COLOR.h">
+      <Filter>cx\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Maths\Maths.h">
+      <Filter>cx\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Maths\MATRIX4X4.h">
+      <Filter>cx\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Maths\PLANE.h">
+      <Filter>cx\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Maths\VECTOR2D.h">
+      <Filter>cx\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Maths\VECTOR3D.h">
+      <Filter>cx\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Maths\VECTOR4D.h">
+      <Filter>cx\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Image\IMAGE.h">
+      <Filter>cx\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\Normalisation Cube Map.h">
+      <Filter>cx</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\WALL.h">
+      <Filter>cx</Filter>
+    </ClInclude>
+    <ClInclude Include="cx\CEIL.h">
+      <Filter>cx</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
